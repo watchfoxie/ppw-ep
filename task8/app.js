@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
         childDiv.style.backgroundColor = '#4CAF50';
         childDiv.style.height = '100%';
         parentDiv.appendChild(childDiv);
-        document.body.appendChild(childDiv);
 
         let htmlButton = document.createElement('button');
         htmlButton.id = 'startButton';
+        htmlButton.type = 'button';
         htmlButton.textContent = 'Start Loading';
         document.body.appendChild(htmlButton);
 
